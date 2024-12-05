@@ -1,0 +1,96 @@
+#title {
+  font-weight: bold;
+  color: white;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image:url(tamagochiFDG.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+   
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#messageBox {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: large;
+    
+}
+
+.statBar {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    background: #eee;
+    position: relative;
+    border-radius: 10px;
+}
+
+.statFill {
+    height: 100%;
+    background: #76c7c0;
+    width: 50%; /* Default value */
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .emoji {
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .emoji:hover {
+    transform: scale(1.2); 
+  }
+  .main_container {
+    background-color: rgba(9, 81, 101, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    padding: 30px;
+    border-radius: 50px;
+  }
